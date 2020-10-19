@@ -1,0 +1,16 @@
+nav > ul {
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.active {
+  background-color: #1976d2;
+}

@@ -1,0 +1,27 @@
+.wrap-product {
+  padding-top: 1em;
+  display: grid;
+  justify-content: center;
+}
+.product-item {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.25rem;
+  padding-bottom: 1.5em;
+  width: 500px;
+}
+
+.product-item img {
+  max-width: 100%;
+}
+
+button {
+  width: 50%;
+  padding: 0.5em;
+  cursor: pointer;
+  background-color: #3b8ad9;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+}

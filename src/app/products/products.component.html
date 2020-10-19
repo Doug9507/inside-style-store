@@ -1,0 +1,13 @@
+<p>products works!</p>
+
+<div class="wrap-products">
+  <div *ngFor="let product of products" class="product-item">
+    <h3>{{ product.title }}</h3>
+    <img [src]="product.image" alt="product-image" />
+    <h4>{{ product.price | currency: "PEN" }}</h4>
+    <p>
+      <i>{{ product.description }} </i>
+    </p>
+    <button [routerLink]="['/products', product.id]">Ver Detalle</button>
+  </div>
+</div>
